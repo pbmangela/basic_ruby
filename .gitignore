@@ -1,3 +1,11 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+
 *.gem
 *.rbc
 /.config
@@ -33,3 +41,7 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+# ignore mac desktop service files
+.DS_Store
+.idea/*
