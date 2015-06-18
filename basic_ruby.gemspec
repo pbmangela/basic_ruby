@@ -6,16 +6,12 @@ require 'basic_ruby/version'
 Gem::Specification.new do |spec|
   spec.name          = "basic_ruby"
   spec.version       = BasicRuby::VERSION
-  spec.authors       = ["Francisco"]
-  spec.email         = ["francisco.rojas@janeirodigital.com"]
+  spec.authors       = ["Francisco Rojas"]
+  spec.email         = ["josefcorojas@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This repo is meant to help people learning ruby the basic principles of the language}
+  spec.description   = %q{This repo is meant to help people learning ruby the basic principles of the language}
+  spec.homepage      = "https://github.com/francisco-rojas/basic_ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -25,4 +21,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.8"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "pry"
 end
