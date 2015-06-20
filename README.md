@@ -4,3 +4,16 @@
 
 # Basic Ruby
 This repo is meant to help people learning ruby the basic principles of the language.
+
+##### Class 1 06/20/15
+
+* Development Environment
+* Development tools (text editors, IDE, terminal, irb, pry)
+* RVM
+* Bundler
+* Rubygems
+* Git
+* Test Driven Development
+* Continuous Integration
+* Ruby Documentation
+* Ruby sintax and naming conventions
