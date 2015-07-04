@@ -19,3 +19,26 @@ This repo is meant to help people learning ruby the basic principles of the lang
 * Ruby Documentation
 * Ruby sintax and naming conventions
 * Ruby variables and constants
+
+##### Class 3 07/04/15
+* Numbers
+  * Fixnum, Bignum (Ingers)
+  * Float, BigDecimal
+* Strings
+  * ""
+  * ''
+  * interpolation
+  * heredocs
+  * concatenation
+  * ASCII representation (?A)
+* Symbols (DoS and GC)
+* Collections
+  * Arrays
+  * Hashes
+  * Ranges
+* Flow control
+  * if and unless
+  * ternary operator
+  * elsif and case
+  * while and until
+* Callable objects  
